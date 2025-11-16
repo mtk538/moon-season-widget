@@ -1,0 +1,35 @@
+.widget {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 0;
+      color: white;
+      font-family: system-ui, sans-serif;
+      background: transparent;
+      border: none;
+    }
+    .moon-emoji {
+      font-size: 40px;
+      line-height: 1;
+      transform: translateY(1px);
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .info .season {
+      font-size: 17px;
+      font-weight: 700;
+    }
+    .info .phase-name,
+    .info .phase-details,
+    .info .season-details {
+      font-size: 12px;
+      opacity: 0.85;
+    }
+    @media (max-width: 400px) {
+      .moon-emoji { font-size: 32px; }
+      .widget { gap: 8px; }
+      .info .season { font-size: 16px; }
+    }

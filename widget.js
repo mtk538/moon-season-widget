@@ -211,8 +211,7 @@
       const mp = moonPhaseInfo(now);
       document.getElementById('moonEmoji').textContent = emojis[mp.index];
       document.getElementById('phaseName').textContent = phaseNames[mp.index];
-      document.getElementById('phaseDetails').textContent =
-        `Age: ${mp.age} days • Illumination: ${mp.illumination}%`;
+      document.getElementById('phaseName').textContent = `${phaseNames[mp.index]} - illumination ${mp.illumination}%`;
 
       // Seasons
       const metSeason = meteorologicalSeason(now);

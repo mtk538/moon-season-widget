@@ -9,7 +9,7 @@
       border: none;
     }
     .moon-emoji {
-      font-size: 40px;
+      font-size: 32px;
       line-height: 1;
       transform: translateY(1px);
     }
@@ -19,8 +19,8 @@
       gap: 4px;
     }
     .info .season {
-      font-size: 17px;
-      font-weight: 700;
+      font-size: 16px;
+      font-weight: 600;
     }
     .info .phase-name,
     .info .phase-details,
